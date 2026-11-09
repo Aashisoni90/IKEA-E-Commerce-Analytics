@@ -1,0 +1,35 @@
+# Large data files - tracked via Git LFS or excluded
+# Uncomment below lines if you want to exclude large CSVs/Excel
+# Stage1_rawData/
+# Stage2_cleanedData/Cleaned_data.csv
+# Stage3_dashboardData/EcommerceDashboardData.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.ipynb_checkpoints/
+.env
+venv/
+env/
+
+# Jupyter
+.jupyter/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+
+# Windows
+$RECYCLE.BIN/
